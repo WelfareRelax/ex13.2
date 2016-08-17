@@ -22,6 +22,7 @@ public class Main {
     }
 
     private static boolean gameLogic(Player player, Enemy enemy) {
+        // Jävligt bra skrivet
         int xdiff = player.x - enemy.x;
         int ydiff = player.y - enemy.y;
         if(xdiff == 0 && ydiff == 0) {
