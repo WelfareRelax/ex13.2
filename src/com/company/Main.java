@@ -20,6 +20,15 @@ public class Main {
             }
         System.out.println("Game over");
         System.out.println("MYBRANCH");
+
+
+        System.out.println("GAHGAHGAHAGA");
+        System.out.println("GAHGAHGAHAGA");
+        System.out.println("GAHGAHGAHAGA");
+        System.out.println("GAHGAHGAHAGA");
+        System.out.println("GAHGAHGAHAGA");
+        System.out.println("GAHGAHGAHAGA");
+        System.out.println("GAHGAHGAHAGA");
     }
 
     private static boolean gameLogic(Player player, Enemy enemy) {
