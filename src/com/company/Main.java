@@ -19,14 +19,22 @@ public class Main {
                 updateScreen(player, enemy, terminal);
             }
         System.out.println("Game over");
+        System.out.println("MYBRANCH");
+
+
+        System.out.println("GAHGAHGAHAGA");
+        System.out.println("GAHGAHGAHAGA");
+        System.out.println("GAHGAHGAHAGA");
+        System.out.println("GAHGAHGAHAGA");
+        System.out.println("GAHGAHGAHAGA");
+        System.out.println("GAHGAHGAHAGA");
+        System.out.println("GAHGAHGAHAGA");
     }
 
     private static boolean gameLogic(Player player, Enemy enemy) {
         // Jävligt bra skrivet
-        // hej
-        // accepta
-        // abra kadabra
-        // Moheds branch
+        // Hurra
+
         int xdiff = player.x - enemy.x;
         int ydiff = player.y - enemy.y;
         if(xdiff == 0 && ydiff == 0) {
@@ -58,6 +66,8 @@ public class Main {
         terminal.putCharacter('X');
         terminal.moveCursor(0,0);
     }
+
+
 
 
 }
