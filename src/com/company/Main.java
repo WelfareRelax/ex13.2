@@ -25,6 +25,7 @@ public class Main {
         // Jävligt bra skrivet
         // hej
         // accepta
+        // abra kadabra
         int xdiff = player.x - enemy.x;
         int ydiff = player.y - enemy.y;
         if(xdiff == 0 && ydiff == 0) {
