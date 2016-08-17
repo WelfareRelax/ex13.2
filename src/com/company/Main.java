@@ -19,6 +19,7 @@ public class Main {
                 updateScreen(player, enemy, terminal);
             }
         System.out.println("Game over");
+        System.out.println("MYBRANCH");
     }
 
     private static boolean gameLogic(Player player, Enemy enemy) {
@@ -54,6 +55,8 @@ public class Main {
         terminal.putCharacter('X');
         terminal.moveCursor(0,0);
     }
+
+
 
 
 }
